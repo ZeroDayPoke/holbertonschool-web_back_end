@@ -3,6 +3,7 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
+    not_empty = true;
   }
 
   return [task, task2];
